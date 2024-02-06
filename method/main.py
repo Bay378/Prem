@@ -74,11 +74,19 @@ class MAIN:
               self.x.append(self.z+'123')
               self.x.append(self.z+'1234')
               self.x.append(self.z+'12345')
+              self.x.append('sayang')
+              self.x.append('anjing')
+              self.x.append('bangsat')
+              self.x.append('kontol')
            else:
               self.z = self.y.lower()
               self.x.append(self.z+'123')
               self.x.append(self.z+'1234')
               self.x.append(self.z+'12345')
+              self.x.append('sayang')
+              self.x.append('anjing')
+              self.x.append('bangsat')
+              self.x.append('kontol')
            if len(nama) <5:continue
            else:
               self.x.append(nama.replace(' ','').lower())
